@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+/* container properties */
+.container {
+    margin: auto;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    
+}
+
+/* styling circles */
+.circle {
+    border-radius: 50%;
+    z-index: 0;
+    background-color: #3685FE;
+    position: absolute;
+}
+#circle-1 {
+    height: 350px;
+    width: 350px;
+    bottom: 185px;
+    right: 130px;
+}
+#circle-2 {
+    height: 150px;
+    width: 150px;
+    bottom: -40px;
+    left: 226px;
+}
+
+/* QR code container styling */
+.qr-container {
+    background-color: #2B7DFA;
+    position: relative;
+    height: 15em;
+    padding: 50px;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+#qr-img {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 1;
+}
+
+/* title styling */
+h2 {
+    color: #243758;
+    width: 300px;
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+/* pagagraph sizing */
+p {
+    color: #8b8b96;
+    font-weight: 500;
+    width: 280px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #0547ac;
+}
+
+a:hover {
+    color: #6fa6f8;
+}
+
+a:visited {
+    color: #7545b4;
+}
