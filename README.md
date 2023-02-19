@@ -23,8 +23,8 @@ This is my first challenge submission for the Frontend Mentor challenge.
 ![](./images/Screenshot.png)
 
 ### Links
-- ![Solution URL](https://github.com/destastan/QR-code-component-solution)
-- ![Live Site URL](https://destastan.github.io/QR-code-component-solution/)
+- [Solution URL](https://github.com/destastan/QR-code-component-solution)
+- [Live Site URL](https://destastan.github.io/QR-code-component-solution/)
 
 ## My Process
 
